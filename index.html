@@ -64,7 +64,7 @@
 
   <main role="main">
 
-    <!-- ***** Work ***** -->
+    <!-- ***** Our Story ***** -->
 
     <section class="our-story" id="our-story">
       <div class="row">
@@ -91,32 +91,19 @@
   <section class="examples" id="examples">
     <div class="row">
       <h2>Example Programs</h2>
-      <div class="examples">
-        <h3> Defining and Calling a Function</h3>
-        <code>
-
-function greet(name) {
-
-    return `Try hard, ${name}! Keep rucking!`;
-
+      <div class="work__boxes">
+        <div class="work__box">
+          <code>
+            ruck greet(name: str) -> str {
+    pass "Try hard, " + name + "! Keep rucking!"
 }
 
-function main() {
-
-    let result = greet("Julian");
-
-    console.log(result);
-
-    result = greet("Carson");
-
-    console.log(result);
-
-}
-
-
-main();
-
-</code>
+result: str = greet("Julian")
+print(result)
+result: str = greet(name="Carson")
+print(result)
+          </code>
+        </div>
       </div>
     </div>
   </section>
