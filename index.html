@@ -93,6 +93,7 @@
       <h2>Example Programs</h2>
       <div class="work__boxes">
         <div class="work__box">
+          <h3>Quanco</h3>
           <code>
             ruck greet(name: str) -> str {
     pass "Try hard, " + name + "! Keep rucking!"
@@ -102,6 +103,20 @@ result: str = greet("Julian")
 print(result)
 result: str = greet(name="Carson")
 print(result)
+          </code>
+          <h3>JavaScript</h3>
+          <code>
+            function greet(name) {
+    return `Try hard, ${name}! Keep rucking!`;
+}
+function main() {
+    let result = greet("Julian");
+    console.log(result);
+    result = greet("Carson");
+    console.log(result);
+}
+
+main();
           </code>
         </div>
       </div>
