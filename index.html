@@ -68,14 +68,13 @@
 
     <section class="our-story" id="our-story">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Quanco</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Quanco</h3>
               <p>
                 One evening after a challenging and rather cumbersome Loyola Rugby practice in Spring 2023, the heroes of our story, Carson Cabrera and Julian Mazzier hurried to the Keck Lab at LMU to grind their Data Structures and Applications homework. Unfortunately for our protagonists, although they loved programming in Java (mostly Julian), their accumulated brain damage from Coach Ray Thompson's unreasonable tackling drills and their many bouts with Long Beach State's "B side" made it near impossible for them to comprehend having to use parentheses and curly brackets, slowing them down immensely. During this time of extreme peril, a genius idea came to them. Why would anyone want to use Java for anything? Unable to remember the syntax of Python or TypeScript, they made a language that spoke to them.
               </p>
@@ -85,24 +84,44 @@
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
+    
 
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
-        </div>
+  <!-- ***** Examples ***** -->
+
+  <section class="examples" id="examples">
+    <div class="row">
+      <h2>Example Programs</h2>
+      <div class="examples">
+        <h3> Defining and Calling a Function</h3>
+        <code>
+
+function greet(name) {
+
+    return `Try hard, ${name}! Keep rucking!`;
+
+}
+
+function main() {
+
+    let result = greet("Julian");
+
+    console.log(result);
+
+    result = greet("Carson");
+
+    console.log(result);
+
+}
+
+
+main();
+
+</code>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ***** About ***** -->
+<!-- ***** About ***** -->
 
     <section class="about" id="about">
       <div class="row">
@@ -129,26 +148,7 @@
     </section>
   </main>
 
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
-      </div>
-    </div>
-  </section>
-
+  
   <!-- ***** Footer ***** -->
 
   <footer role="contentinfo" class="footer">
